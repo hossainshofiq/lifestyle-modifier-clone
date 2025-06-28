@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel'
 const HeroSection = () => {
 
     return (
-        <div>
+        <div className='pb-8'>
             <Carousel showThumbs={false} autoPlay={Boolean} interval={3000} infiniteLoop={true} showStatus={false}>
                 <div>
                     <Image
