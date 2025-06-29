@@ -7,6 +7,7 @@ import ContactUs from '../components/ContactUs';
 import LifeStyle from '../components/LifeStyle';
 import Appointment from '../components/Appointment';
 import Services from '../components/Services';
+import Videos from '../components/Videos';
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
             <LifeStyle></LifeStyle>
             <Appointment></Appointment>
             <Services></Services>
+            <Videos></Videos>
             <Review></Review>
             <About></About>
             <ContactUs></ContactUs>
